@@ -1,0 +1,87 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        height: 100vh;
+        background: linear-gradient(#faca12, #afa21a);
+}
+
+html {
+        font-size: 16px;
+}
+
+.wrapper {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+}
+
+.container {
+        width: 70vmin;
+        height: 70vmin;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vmin;
+}
+
+.button-option {
+        color: rgb(255, 115, 0);
+        background-color: black;
+        height: 22vmin;
+        width: 22vmin;
+        border: none;
+        border-radius: 10px;
+        font-size: 16vmin;
+}
+
+#restart {
+        padding: 1em 2em;
+        font-size: 2em;
+        font-weight: 700;
+        margin: 1em auto;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        display: block;
+        position: relative;
+        color: rgb(255, 115, 0);
+        background-color: black;
+}
+
+.popup {
+        background: linear-gradient(#faca12, #afa21a);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+        font-size: 12vmin;
+}
+
+#message{
+        text-align: center;
+        color: black;
+        font-weight: 900;
+}
+
+#new-game{
+        font-size: 0.5em;
+        padding: 0.5em 1em;
+        border-radius: 15px;
+        border: none;
+        background-color: #fa1212;
+        color: white;
+        font-weight: 700;
+}
+
+.popup.hide{
+        display: none;
+}
