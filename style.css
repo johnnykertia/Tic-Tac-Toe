@@ -85,3 +85,24 @@ html {
 .popup.hide{
         display: none;
 }
+
+
+@media(max-width:772px) {
+        .container {
+                width: 90vmin;
+                height: 90vmin;
+                gap: 3vmin;
+        }
+
+        .button-option {
+                height: 28vmin;
+                width: 28vmin;
+                font-size: 19vmin;
+        }
+
+        #restart{
+                padding: 1em 1.3em;
+                font-size: 6vmin;
+                margin-top: 30px;
+        }
+}
